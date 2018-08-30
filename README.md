@@ -12,5 +12,6 @@ Below is a list of configuration files and where to link them
 
 # Modules
 Program-specific modules like `role` and `profile` definitely go here.  However, anything that should not be shared with anyone else can also be placed here.
-/etc/puppetlabs/code/environments/production/modules/role       -> modules/role
-/etc/puppetlabs/code/environments/production/modules/profile    -> modules/profile
+
+* /etc/puppetlabs/code/environments/production/modules/role     -> modules/role
+* /etc/puppetlabs/code/environments/production/modules/profile  -> modules/profile
