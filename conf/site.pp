@@ -13,9 +13,7 @@ if $role =~ String and !empty($role) {
   fail('No role is defined')
 }
 
-# allow virtual packages
-if versioncmp($facts['puppetversion'], '3.6.1') >= 0 {
-  Package {
-    allow_virtual => true,
-  }
+# allow virtual packages globally
+Package {
+  allow_virtual => true,
 }
