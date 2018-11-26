@@ -3,8 +3,9 @@
 # @summary A short summary of the purpose of this class
 #
 # @example
-#   include profile::core
-class profile::core {
-  include '::core'
-  include '::puppet::agent'
+#   include core
+class core {
+
+  contain '::core::time'
+
 }
